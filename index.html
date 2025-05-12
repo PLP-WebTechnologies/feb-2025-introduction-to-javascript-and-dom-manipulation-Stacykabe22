@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    #dynamicText {
+      font-size: 20px;
+      color: darkblue;
+    }
+
+    #toggleElement {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: lightgray;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="dynamicText">Hello, world!</h1>
+
+  <button onclick="changeText()">Change Text</button>
+  <button onclick="changeStyle()">Change Style</button>
+  <button onclick="toggleElement()">Add/Remove Element</button>
+
+  <div id="container"></div>
+
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
